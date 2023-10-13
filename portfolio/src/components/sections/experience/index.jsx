@@ -18,7 +18,7 @@ const Experience = () => {
           HTML, CSS, JavaScript e Bootstrap.
         </p>
         <div className="w-full max-h-full mt-10 grid grid-cols-1 lg:grid-cols-2 gap-2">
-          <div className="w-full max-h-full flex flex-col p-2 bg-wihte shadow-lg border">
+          <div className="w-full max-h-full flex flex-col p-2 bg-white rounded-sm shadow-lg border">
             <div className="w-full max-h-full flex items-center justify-between">
               <span className="text-md lg:text-lg text-black font-bold">
                 Programador Frontend
@@ -43,7 +43,7 @@ const Experience = () => {
               para um público mais amplo.
             </p>
           </div>
-          <div className="w-full max-h-full flex flex-col p-2 bg-white shadow-lg border">
+          <div className="w-full max-h-full flex flex-col p-2 rounded-sm bg-white shadow-lg border">
             <div className="w-full max-h-full flex items-center justify-between">
               <span className="text-md lg:text-lg text-black font-bold">
                 Programador Frontend

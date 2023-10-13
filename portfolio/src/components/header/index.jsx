@@ -46,6 +46,18 @@ const Header = () => {
       >
         <li>
           <Link
+            to="start"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={closeMenu}
+            className="text-white font-bold py-2 text-sm hover:border-b hover:border-cyan-500 duration-200 cursor-pointer"
+          >
+            Início
+          </Link>
+        </li>
+        <li>
+          <Link
             to="about"
             spy={true}
             smooth={true}
@@ -82,6 +94,7 @@ const Header = () => {
         </li>
         <li>
           <Link
+            to="contact"
             spy={true}
             smooth={true}
             duration={500}

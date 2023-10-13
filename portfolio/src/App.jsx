@@ -5,6 +5,8 @@ import Header from "./components/header";
 import AboutMe from "./components/sections/aboutMe";
 import Projects from "./components/sections/projects";
 import Experience from "./components/sections/experience";
+import Contact from "./components/sections/contact";
+import Footer from "./components/footer";
 
 const App = () => {
   return (
@@ -25,10 +27,10 @@ const App = () => {
             Programador Frontend
           </span>
           <div className="max-w-full mt-4 max-h-full flex items-center space-x-4">
-            <Link className="p-2 bg-white shadow-md m-auto rounded-full hover:opacity-90 duration-200">
+            <Link to='https://www.linkedin.com/in/douglaswelber/' target="blank" className="p-2 bg-white shadow-md m-auto rounded-full hover:opacity-90 duration-200">
               <FiLinkedin className="text-xl text-cyan-950" />
             </Link>
-            <Link className="p-2 bg-white shadow-md m-auto rounded-full hover:opacity-90 duration-200">
+            <Link to='https://github.com/doguebart' target="blank" className="p-2 bg-white shadow-md m-auto rounded-full hover:opacity-90 duration-200">
               <FiGithub className="text-xl text-cyan-950" />
             </Link>
             <Link className="p-2 bg-white shadow-md m-auto rounded-full hover:opacity-90 duration-200">
@@ -39,6 +41,8 @@ const App = () => {
         <AboutMe />
         <Projects />
         <Experience />
+        <Contact />
+        <Footer />
       </div>
     </div>
   );

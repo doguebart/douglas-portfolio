@@ -10,7 +10,7 @@ const scrollToTop = () => {
 const Footer = () => {
   return (
     <div className="w-full max-h-full bg-cyan-950 py-10">
-      <div className="w-full space-y-20 lg:space-y-0 lg:w-2/3 m-auto px-6 lg:px-10 py-2 self-center max-h-full grid grid-cols-1 lg:grid-cols-3">
+      <div className="w-full space-y-20 lg:space-y-0 lg:w-2/3 m-auto px-4 lg:px-10 py-2 self-center max-h-full grid grid-cols-1 lg:grid-cols-3">
         <div className="w-full max-h-full flex flex-col">
           <Link to="start" spy={true} smooth={true} duration={500}>
             <h1 className="text-white text-xl font-bold cursor-pointer">DW</h1>

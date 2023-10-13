@@ -8,7 +8,7 @@ const AboutMe = () => {
     >
       <div className="w-full max-h-full mt-20">
         <h1 className="text-black text-3xl font-bold">Sobre Mim</h1>
-        <p className="text-black text-md lg:text-md py-6 border-b border-black/40">
+        <p className="text-black text-md lg:text-md py-6">
           Sou um programador frontend com um ano de experiência, trabalhando
           como freelancer e colaborando em projetos que abrangeram uma variedade
           de tecnologias. Durante nove meses, concentrei-me em Next.js,
