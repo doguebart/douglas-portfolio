@@ -60,7 +60,7 @@ const Experience = () => {
               responsável pelo desenvolvimento de novas páginas, funcionalidades
               e aprimoramentos de estilo, com foco na otimização da
               responsividade nas áreas de dashboard destinadas aos usuários
-              autenticados
+              autenticados.
             </p>
           </div>
         </div>

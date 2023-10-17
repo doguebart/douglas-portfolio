@@ -16,10 +16,18 @@ const Footer = () => {
             <h1 className="text-white text-xl font-bold cursor-pointer">DW</h1>
           </Link>
           <div className="max-w-full max-h-full flex items-center space-x-4 list-none mt-10">
-            <a className="p-3 lg:p-2 bg-white cursor-pointer rounded-full hover:opacity-90 duration-200">
+            <a
+              href="https://www.linkedin.com/in/douglaswelber/"
+              target="blank"
+              className="p-3 lg:p-2 bg-white cursor-pointer rounded-full hover:opacity-90 duration-200"
+            >
               <FiLinkedin className="text-xl lg:text-md text-cyan-950" />
             </a>
-            <a className="p-3 lg:p-2 bg-white cursor-pointer rounded-full hover:opacity-90 duration-200">
+            <a
+              href="https://github.com/doguebart"
+              target="blank"
+              className="p-3 lg:p-2 bg-white cursor-pointer rounded-full hover:opacity-90 duration-200"
+            >
               <FiGithub className="text-xl lg:text-md text-cyan-950" />
             </a>
             <a className="p-3 lg:p-2 bg-white cursor-pointer rounded-full hover:opacity-90 duration-200">
