@@ -27,13 +27,24 @@ const App = () => {
             Programador Frontend
           </span>
           <div className="max-w-full mt-4 max-h-full flex items-center space-x-4">
-            <Link to='https://www.linkedin.com/in/douglaswelber/' target="blank" className="p-2 bg-white shadow-md m-auto rounded-full hover:opacity-90 duration-200">
+            <Link
+              to="https://www.linkedin.com/in/douglaswelber/"
+              target="blank"
+              className="p-2 bg-white shadow-md m-auto rounded-full hover:opacity-90 duration-200"
+            >
               <FiLinkedin className="text-xl text-cyan-950" />
             </Link>
-            <Link to='https://github.com/doguebart' target="blank" className="p-2 bg-white shadow-md m-auto rounded-full hover:opacity-90 duration-200">
+            <Link
+              to="https://github.com/doguebart"
+              target="blank"
+              className="p-2 bg-white shadow-md m-auto rounded-full hover:opacity-90 duration-200"
+            >
               <FiGithub className="text-xl text-cyan-950" />
             </Link>
-            <Link className="p-2 bg-white shadow-md m-auto rounded-full hover:opacity-90 duration-200">
+            <Link
+              download="/DouglasWelberCurrículo.pdf"
+              className="p-2 bg-white shadow-md m-auto rounded-full hover:opacity-90 duration-200"
+            >
               <FiFile className="text-xl text-cyan-950" />
             </Link>
           </div>

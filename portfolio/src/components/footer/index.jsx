@@ -30,7 +30,10 @@ const Footer = () => {
             >
               <FiGithub className="text-xl lg:text-md text-cyan-950" />
             </a>
-            <a className="p-3 lg:p-2 bg-white cursor-pointer rounded-full hover:opacity-90 duration-200">
+            <a
+              download="/DouglasWelberCurrículo.pdf"
+              className="p-3 lg:p-2 bg-white cursor-pointer rounded-full hover:opacity-90 duration-200"
+            >
               <FiFile className="text-xl lg:text-md text-cyan-950" />
             </a>
           </div>
